@@ -1,2 +1,2 @@
-o = (len(input())
-print(o)
+k = len(input()
+print(k)
