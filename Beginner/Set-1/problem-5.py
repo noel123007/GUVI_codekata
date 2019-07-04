@@ -1,1 +1,2 @@
-print(max(map(int, input().split())))
+l = map(int, input().split())
+print(sorted(l)[-1])
