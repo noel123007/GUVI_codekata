@@ -1,4 +1,4 @@
-v = ('a','e','i','o','u','A','E','I','O','U']
+v = ('a','e','i','o','u','A','E','I','O','U')
 if input() in v:
   print("Vowel")
 else:
