@@ -1,2 +1,5 @@
-n = int(input())
-print(n * (n//2) - n//2)
+m = int(input())
+if m % 2 == 0:
+    print(m * (m//2) - m//2)
+else:
+    print(m * (m//2))
