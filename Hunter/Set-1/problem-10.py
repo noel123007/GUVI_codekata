@@ -1,3 +1,4 @@
+#update
 n, m = map(int,input().split())
 l1 = list(map(int,input().split()))
 l2 = list(map(int,input().split()))
@@ -7,5 +8,5 @@ for i in l2:
         print('NO')
         flag = 0
         break
-if flag == 1:
+if(flag):
     print('YES')
