@@ -1,3 +1,4 @@
+#update
 s1, s2 = input().split()
 
 temp = [0] * max(len(s2),len(s1))
