@@ -1,3 +1,4 @@
+#update
 n = int(input())
 l = []
 for i in range(n):
@@ -18,7 +19,7 @@ def substring(s):
         else:
             count += 1
     return count
-#print(l)
+print(l)
 lst = list(map(substring, l))
-#print(lst)
-print(temp[0:max(lst)])
+print(lst)
+print(temp[0:min(lst)])
