@@ -19,7 +19,7 @@ def substring(s):
         else:
             count += 1
     return count
-print(l)
+#print(l)
 lst = list(map(substring, l))
-print(lst)
+#print(lst)
 print(temp[0:min(lst)])
